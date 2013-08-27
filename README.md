@@ -16,7 +16,7 @@ Features
 Usage
 -----
 
-1. `php composer.phar create-project tmdk/taskrunner taskrunner`
+1. Download and install with `git clone https://github.com/tmdk/taskrunner.git` and `php composer.phar install`.
 2. Run a *bundle* (build file) with `taskrunner [target]`. Taskrunner will look for a file `build.php` in the current directory.
    Use the `-f` flag to specify the path to a bundle.
 3. For pointers on writing bundles, take a look at the examples under
