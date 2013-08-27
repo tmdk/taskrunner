@@ -1,0 +1,16 @@
+{
+    "name": "tmdk/taskrunner",
+    "description": "A PHP based build tool",
+    "authors": [
+        {
+            "name": "tmdk",
+            "email": "tobiasvandijk@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log" : "*"
+    },
+    "autoload": {
+        "psr-0": {"Tmdk\\Taskrunner\\": ""}
+    }
+}
